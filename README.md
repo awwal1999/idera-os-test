@@ -17,7 +17,7 @@ At the time of building. PHP laravel is the base technology and framework been u
 
 ### Documentation
 
-Please see API documentation via [docs](api%20documentation)
+Please see API documentation via [docs](https://idera-os-test.herokuapp.com/api/v1/docs)
 
 ###	Feedback
 Let me have your feedback please 😍

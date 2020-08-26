@@ -31,6 +31,9 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('cinemas/{id}/shows', [CinemaController::class, 'addShow']);
 });
 
+Route::get('docs', function (){
+   return redirect('https://documenter.getpostman.com/view/1684570/TVCZaWqz');
+});
 Route::fallback(function () {
     return [
         'message' => 'Url does not exist'
